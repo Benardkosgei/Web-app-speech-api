@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Set character encoding for the document -->
+	<meta charset="utf-8" />
+	<!-- Responsive design -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Page title -->
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<!-- Custom CSS styles -->
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+	<div class="container">
+	<br>
+	<!-- Heading 1 for the page -->
+	<h1>See'N say story maker Online</h1>
+	<hr>
+	<!-- Buttons for word selection  and for generating the story-->
+	<button id="btn1">Select Noun</button>
+	<button id="btn2">Select Verb</button>
+	<button id="btn3">Select an Adjective</button>
+	<button id="btn4">Select Second Noun</button>
+	<button id="btn5">Select the Place</button>
+	<button id="speakBtn">Speak Now</button>
+	
+	<!-- Container div -->
+	<div id="container">
+		<!-- Image div -->
+		<div>
+			<img src="seen.png" width="100%">
+		</div>
+		<!-- Story generation and reset div -->
+		<div>
+			<!-- Button to generate the story -->
+			<button id="generateBtn">Generate Story</button>
+			<!-- Button to reset the story -->
+			<button id="reset">Reset</button><br>
+			<!-- Paragraph element to display the story output -->
+			<p id="storyOutput"></p>
+		</div>
+	</div>
+</div>
+	 <!-- External Javascript file included -->
+	<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+/*Style container class |   Wrapper */
+.container{
+	background-color: #e2e2e2;
+}
+/*Stle buttons*/
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	margin: 5px;
+}
+
+button:hover {
+	background-color: #45a049;
+}
+
+#speakBtn {
+	background-color: #008CBA;
+}
+
+#generateBtn {
+	background-color: #f44336;
+}
+
+#reset {
+	background-color: #555555;
+}
+/*story style*/
+#storyOutput {
+			margin-top: 20px;
+			font-size: 18px;
+			font-weight: bold;
+			color: #333;
+		}
+/* style my container id		*/
+ #container{
+ 	display: flex;
+ 	text-align: center;
+ 	margin: 10px 72px;
+ }
+  #container div:first-child{
+  	width: 40%;
+  }
